@@ -68,9 +68,9 @@ o	What steps did you take in your attempts to increase model performance?
 
 To increase the model performance and reach the targeted 75% prediction accuracy level, a second model is developed with three hidden layers – with neurons 80, 30 and 10. “Relu” and “Sigmoid” were used as the activation functions for the hidden layers and for the output layer “sigmoid” was used. The number of epochs were also reduced and tested. But even with these changes, the model did not achieve the targeted prediction accuracy level. The model’s prediction accuracy remained below 75% (at 72.9%).
 
-![image](https://github.com/YeFiseha/deep-learning-challenge/assets/135238511/843f203d-da4e-44e8-a46b-1661b849d680)
-
 Automated neural network optimization was also used allowing kerastuner to decide number of hidden layers, number of neurons in the hidden layers and which activation function to be used. The kerastuner search with 50 epochs showed the best model to be the one with 5 hidden layers having 21, 16, 6, 6, and 21 neurons activated with “relu” function. The prediction accuracy of this model still fell short of the targeted 0.75 (remaining at 0.729 with 0.55 loss).
+
+![image](https://github.com/YeFiseha/deep-learning-challenge/assets/135238511/843f203d-da4e-44e8-a46b-1661b849d680)
 
 3.	Summary: 
 
