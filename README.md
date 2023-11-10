@@ -5,8 +5,6 @@ A nonprofit foundation - Alphabet Soup - wants a tool that can help it select th
 
 We received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The features in the provided dataset are used to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
-![image](https://github.com/YeFiseha/deep-learning-challenge/assets/135238511/f4ee752d-9592-4be5-b5d2-799215b4eace)
-
 Results:
 1.	Data Preprocessing
 The charity_data.csv is read into a Pandas DataFrame:
@@ -14,7 +12,9 @@ The charity_data.csv is read into a Pandas DataFrame:
 o	What variable(s) are the target(s) for your model?
 
 The target variable for our model is ‘IS_SUCCESSFUL’. That is, y = IS_SUCCESSFUL. This variable captures whether the money was used effectively by the organizations that have received funding from Alphabet Soup
- 
+
+![image](https://github.com/YeFiseha/deep-learning-challenge/assets/135238511/f4ee752d-9592-4be5-b5d2-799215b4eace)
+
 o	What variable(s) are the features for your model?
 
 The remaining variables are the features (‘X’s) for our model. These are:
